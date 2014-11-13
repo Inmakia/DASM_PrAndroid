@@ -1,0 +1,201 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    tools:context="${relativePackage}.${activityClass}" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/pantalla_borrado"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.92"
+            android:paddingLeft="20dp"
+            android:text="@string/dni"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/dniField"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.92"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/dni"
+            android:inputType="number|text"
+            android:paddingRight="20dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.76"
+            android:paddingLeft="20dp"
+            android:text="@string/name"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/name"
+            android:inputType="text|textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.52"
+            android:paddingLeft="20dp"
+            android:text="@string/surname"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/lastnameField"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/surname"
+            android:inputType="text|textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.51"
+            android:paddingLeft="20dp"
+            android:text="@string/address"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/addressField"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/address"
+            android:inputType="text|textPostalAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.63"
+            android:paddingLeft="20dp"
+            android:text="@string/phone"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/phoneField"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/phone"
+            android:inputType="text|number|phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/team"
+            android:textColor="@color/defaultText"
+            android:textSize="@dimen/defaultText" />
+
+        <EditText
+            android:id="@+id/teamField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/team"
+            android:inputType="text|number" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/delete"
+        android:contentDescription="@string/add_button"
+        android:onClick="delete"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acceso WebService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="progress_title">Conectando con la base de datos</string>
+    <string name="sin_respuesta"></string>
+    <string name="dni">DNI</string>
+    <string name="pantalla_principal">Operaciones Servicio Web</string>
+    <string name="search_button">Botón de búsqueda</string>
+    <string name="add_button">Botón de inserción</string>
+    <string name="edit_button">Botón de modificación</string>
+    <string name="delete_button">Botón de borrado</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="pantalla_insercion">Inserción de Registro</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="address">Dirección</string>
+    <string name="phone">Teléfono</string>
+    <string name="team">Equipo</string>
+    <string name="title_activity_consult">ConsultActivity</string>
+    <string name="pantalla_consulta">Consulta de Registros</string>
+    <string name="first_button">Ir al primero</string>
+    <string name="last_button">Ir al último</string>
+    <string name="before_button">Ir al anterior</string>
+    <string name="after_button">Ir al siguiente</string>
+    <string name="no_reg">Registro no existente</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+    <string name="pantalla_modificacion">Modificación de Registro</string>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="pantalla_borrado">Borrado de Registro</string>
+    <string name="no_dni">Debe introducir un DNI</string>
+    <string name="exist_dni">Registro existente</string>
+
+</resources>
